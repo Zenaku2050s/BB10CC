@@ -1,0 +1,24 @@
+services:
+- type: web
+  name: next-js
+  runtime: node
+  plan: starter
+  buildCommand: yarn; yarn build
+  startCommand: yarn start
+  autoDeploy: false
+  envVars:
+  - key: token
+    value: '7913688458:AAGltdLCRLgLVzpp16vgc2ei2Sh9X4eDsic'
+
+  - key: subscriber
+    value: '7492788024'
+# Uncomment the following to deploy this app as a static site on render
+# - type: web
+#   name: nextjs-static
+#   runtime: static
+#   buildCommand: yarn; yarn build
+#   staticPublishPath: out
+#   pullRequestPreviewsEnabled: true     # optional
+#   envVars:
+#   - key: NODE_ENV
+#     value: production
