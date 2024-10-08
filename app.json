@@ -1,0 +1,24 @@
+{
+    "name": "wang_lin",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://te.legra.ph/file/e51819c35ac9b76037fce.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Flash",
+    "CcBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "token": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "7913688458:AAGltdLCRLgLVzpp16vgc2ei2Sh9X4eDsic",
+        "required": true
+      },
+      "subscriber": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "7492788024",
+        "required": true
+      },
