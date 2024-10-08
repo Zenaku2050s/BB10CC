@@ -3,3 +3,5 @@ telebot
 time
 os
 re
+pyrogram
+dotenv
