@@ -21,4 +21,18 @@
         "description": "Get this value from https://my.telegram.org",
         "value": "7492788024",
         "required": true
-      },
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
